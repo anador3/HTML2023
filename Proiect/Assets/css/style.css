@@ -23,7 +23,12 @@ img{
   border: 0;
 }
 
-h1, h2, h3, h4, h5, h6 { 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
   color: #362C20;
   letter-spacing: 0em;
   padding: 0 0 5px 0;}
