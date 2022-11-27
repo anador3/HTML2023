@@ -3,24 +3,28 @@ div img{
     max-width:600px;
 }
     @media (max-width:576px) {
-        /* desktop */
-        .laptop, .mobil{
+        /* mobil */
+        .laptop, .tableta{
          display: none;
         }
     
     }
-        @media (min-width:577px) and (max-width:768px){
-            /* laptop */
-            .mobil, .desktop{
+        @media (min-width:578px) and (max-width:768px){
+            /* tableta */
+            .mobil, .laptop{
                 display: none;
             }
+            
         }
       
         @media (min-width:769px)  {
-            /* mobil */
-            .mobil, .laptop{
+            /* laptop */
+            .mobil, .tableta{
                 display: none;
+                
         
+            }
+            
             }
         }
         
